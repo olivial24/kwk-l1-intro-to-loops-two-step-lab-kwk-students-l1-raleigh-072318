@@ -8,15 +8,20 @@ def first_steps
   sleep(0.5)
   puts "Stop"
   sleep(1)
-  puts "Right foot steps right and back"
-  sleep(0.5)
-  "Left foot crosses over right"
-  sleep(0.5)
-  "Right foot steps right"
-  sleep(0.5)
-  puts "Turn"
-  sleep(1)
-end
+ end
+end 
+
+def some_more_steps
+  loop do 
+   puts "Right foot steps right and back"
+   sleep(0.5)
+   "Left foot crosses over right"
+   sleep(0.5)
+   "Right foot steps right"
+   sleep(0.5)
+   puts "Turn"
+   sleep(1)
+ end
 end
 
 def how_many_steps?
