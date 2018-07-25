@@ -16,7 +16,7 @@ def some_more_steps
    puts "Right foot steps right and back"
    sleep(0.5)
    "Left foot crosses over right"
-   sleep(0.5)
+  sleep(0.5)
    "Right foot steps right"
    sleep(0.5)
    puts "Turn"
